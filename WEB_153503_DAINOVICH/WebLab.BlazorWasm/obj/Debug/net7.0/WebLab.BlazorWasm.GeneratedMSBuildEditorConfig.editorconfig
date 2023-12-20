@@ -1,0 +1,77 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = WebLab.BlazorWasm
+build_property.RootNamespace = WebLab.BlazorWasm
+build_property.ProjectDir = D:\university\5 semester\test reserve\WEB_153503_DAINOVICH\WebLab.BlazorWasm\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\university\5 semester\test reserve\WEB_153503_DAINOVICH\WebLab.BlazorWasm
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/university/5 semester/test reserve/WEB_153503_DAINOVICH/WebLab.BlazorWasm/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/university/5 semester/test reserve/WEB_153503_DAINOVICH/WebLab.BlazorWasm/Components/MovieList.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xNb3ZpZUxpc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/university/5 semester/test reserve/WEB_153503_DAINOVICH/WebLab.BlazorWasm/Components/MoviesDetails.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xNb3ZpZXNEZXRhaWxzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/university/5 semester/test reserve/WEB_153503_DAINOVICH/WebLab.BlazorWasm/Components/MovieTypeSelector.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xNb3ZpZVR5cGVTZWxlY3Rvci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/university/5 semester/test reserve/WEB_153503_DAINOVICH/WebLab.BlazorWasm/Components/Pager.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/university/5 semester/test reserve/WEB_153503_DAINOVICH/WebLab.BlazorWasm/Pages/Authentication.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aGVudGljYXRpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/university/5 semester/test reserve/WEB_153503_DAINOVICH/WebLab.BlazorWasm/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/university/5 semester/test reserve/WEB_153503_DAINOVICH/WebLab.BlazorWasm/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/university/5 semester/test reserve/WEB_153503_DAINOVICH/WebLab.BlazorWasm/Pages/Movie.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW92aWUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/university/5 semester/test reserve/WEB_153503_DAINOVICH/WebLab.BlazorWasm/Shared/LoginDisplay.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ2luRGlzcGxheS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/university/5 semester/test reserve/WEB_153503_DAINOVICH/WebLab.BlazorWasm/Shared/RedirectToLogin.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFJlZGlyZWN0VG9Mb2dpbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/university/5 semester/test reserve/WEB_153503_DAINOVICH/WebLab.BlazorWasm/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/university/5 semester/test reserve/WEB_153503_DAINOVICH/WebLab.BlazorWasm/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/university/5 semester/test reserve/WEB_153503_DAINOVICH/WebLab.BlazorWasm/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-yp21rjfcin
+
+[D:/university/5 semester/test reserve/WEB_153503_DAINOVICH/WebLab.BlazorWasm/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-qza7i71vs4

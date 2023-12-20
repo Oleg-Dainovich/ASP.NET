@@ -1,0 +1,24 @@
+D:\university\5 semester\test\WEB_153503_DAINOVICH\WebLab.Domain\bin\Debug\net7.0\WebLab.Domain.deps.json
+D:\university\5 semester\test\WEB_153503_DAINOVICH\WebLab.Domain\bin\Debug\net7.0\WebLab.Domain.dll
+D:\university\5 semester\test\WEB_153503_DAINOVICH\WebLab.Domain\bin\Debug\net7.0\WebLab.Domain.pdb
+D:\university\5 semester\test\WEB_153503_DAINOVICH\WebLab.Domain\obj\Debug\net7.0\WebLab.Domain.csproj.AssemblyReference.cache
+D:\university\5 semester\test\WEB_153503_DAINOVICH\WebLab.Domain\obj\Debug\net7.0\WebLab.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\university\5 semester\test\WEB_153503_DAINOVICH\WebLab.Domain\obj\Debug\net7.0\WebLab.Domain.AssemblyInfoInputs.cache
+D:\university\5 semester\test\WEB_153503_DAINOVICH\WebLab.Domain\obj\Debug\net7.0\WebLab.Domain.AssemblyInfo.cs
+D:\university\5 semester\test\WEB_153503_DAINOVICH\WebLab.Domain\obj\Debug\net7.0\WebLab.Domain.csproj.CoreCompileInputs.cache
+D:\university\5 semester\test\WEB_153503_DAINOVICH\WebLab.Domain\obj\Debug\net7.0\WebLab.Domain.dll
+D:\university\5 semester\test\WEB_153503_DAINOVICH\WebLab.Domain\obj\Debug\net7.0\refint\WebLab.Domain.dll
+D:\university\5 semester\test\WEB_153503_DAINOVICH\WebLab.Domain\obj\Debug\net7.0\WebLab.Domain.pdb
+D:\university\5 semester\test\WEB_153503_DAINOVICH\WebLab.Domain\obj\Debug\net7.0\ref\WebLab.Domain.dll
+D:\university\5 semester\test reserve\WEB_153503_DAINOVICH\WebLab.Domain\bin\Debug\net7.0\WebLab.Domain.deps.json
+D:\university\5 semester\test reserve\WEB_153503_DAINOVICH\WebLab.Domain\bin\Debug\net7.0\WebLab.Domain.dll
+D:\university\5 semester\test reserve\WEB_153503_DAINOVICH\WebLab.Domain\bin\Debug\net7.0\WebLab.Domain.pdb
+D:\university\5 semester\test reserve\WEB_153503_DAINOVICH\WebLab.Domain\obj\Debug\net7.0\WebLab.Domain.csproj.AssemblyReference.cache
+D:\university\5 semester\test reserve\WEB_153503_DAINOVICH\WebLab.Domain\obj\Debug\net7.0\WebLab.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\university\5 semester\test reserve\WEB_153503_DAINOVICH\WebLab.Domain\obj\Debug\net7.0\WebLab.Domain.AssemblyInfoInputs.cache
+D:\university\5 semester\test reserve\WEB_153503_DAINOVICH\WebLab.Domain\obj\Debug\net7.0\WebLab.Domain.AssemblyInfo.cs
+D:\university\5 semester\test reserve\WEB_153503_DAINOVICH\WebLab.Domain\obj\Debug\net7.0\WebLab.Domain.csproj.CoreCompileInputs.cache
+D:\university\5 semester\test reserve\WEB_153503_DAINOVICH\WebLab.Domain\obj\Debug\net7.0\WebLab.Domain.dll
+D:\university\5 semester\test reserve\WEB_153503_DAINOVICH\WebLab.Domain\obj\Debug\net7.0\refint\WebLab.Domain.dll
+D:\university\5 semester\test reserve\WEB_153503_DAINOVICH\WebLab.Domain\obj\Debug\net7.0\WebLab.Domain.pdb
+D:\university\5 semester\test reserve\WEB_153503_DAINOVICH\WebLab.Domain\obj\Debug\net7.0\ref\WebLab.Domain.dll

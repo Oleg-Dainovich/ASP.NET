@@ -1,0 +1,37 @@
+﻿@page "/movie"
+@page "/movie/{movietype}"
+@using System.Text.Json;
+@using System.Text;
+@using WebLab.Domain.Entities;
+@using WebLab.Domain.Models;
+@using WebLab.BlazorWasm.Components;
+@inject IDataService dataService
+
+
+<PageTitle>Movie</PageTitle>
+<MovieTypeSelector SelectedMovieType="@SelectedName"/>
+<MovieList MovieSelected="FindMovies" />
+<Pager MovieType="@MovieType" TotalPages="@DataService.TotalPages" CurrentPage="@DataService.CurrentPage" />
+<MoviesDetails SelectedMovies="@SelectedMovie"/>
+
+@code {
+    [Inject]
+    public IDataService DataService { get; set; }
+    [Parameter] public string MovieType { get; set; }
+    public string SelectedName { get; set; }
+    public WebLab.Domain.Entities.Movie? SelectedMovie { get; set; }
+    protected override async Task OnParametersSetAsync()
+    {
+        await dataService.GetProductListAsync(MovieType);
+        if (MovieType != null)
+            SelectedName = DataService.MovieTypes.FirstOrDefault(c => c.NormalizedName.Equals(MovieType)).Name;
+        else SelectedName = "Все";
+    }
+
+
+    public void FindMovies(int id)
+    {
+        SelectedMovie = DataService?.MovieList?.FirstOrDefault(c => c.Id == id);
+        StateHasChanged();
+    }
+}

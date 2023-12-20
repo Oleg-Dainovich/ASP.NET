@@ -1,0 +1,64 @@
+﻿@page
+@*@model WEB_153503_DAINOVICH.Areas.Admin.Pages.IndexModel*@
+@model IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Movie.Items[0].Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Movie.Items[0].Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Movie.Items[0].Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Movie.Items[0].Image)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Movie.Items[0].Type)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Movie.Items) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                <img src="@item.Image" class="card-img-top" style="object-fit: contain; width: 100px;" alt="movie">
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TypeId)
+            </td>
+            <td>
+                <a class="btn btn-success" asp-page="./Edit" asp-route-id="@item.Id"><i class="fas fa-edit"></i> Edit</a><br>
+                <a class="btn btn-info" asp-page="./Details" asp-route-id="@item.Id"><i class="fa-solid fa-circle-info"></i> Details</a><br>
+                <a class="btn btn-danger" asp-page="./Delete" asp-route-id="@item.Id"><i class="fa-solid fa-trash"></i> Delete</a><br>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+<nav>
+    <Pager current-page="@Model.Movie.CurrentPage" total-pages="@Model.Movie.TotalPages" admin></Pager>
+</nav>

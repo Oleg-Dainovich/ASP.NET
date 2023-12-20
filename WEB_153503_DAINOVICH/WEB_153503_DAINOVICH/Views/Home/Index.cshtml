@@ -1,0 +1,70 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+<h1>@ViewData["LabName"]</h1>
+<h2>Список</h2>
+<ol type="A">
+    @for (var i = 0; i < 5; i++)
+    {
+        <li>Item @i</li>
+    }
+</ol>
+<h2>Форма</h2>
+<form method="get" id="confirmForm">
+    <select class="form-select" name="listDemo" asp-items="ViewBag.Lists">@ViewBag.Lists</select>
+    <fieldset class="row mb-3">
+        <div class="col-sm-10 offset-sm-2">
+            <div class="form-check">
+                <input class="form-check-input" name="gridCheck1" type="checkbox" id="gridCheck1">
+                <label class="form-check-label" for="gridCheck1">
+                    Чек-бокс 1
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" name="gridCheck2" type="checkbox" id="gridCheck2">
+                <label class="form-check-label" for="gridCheck2">
+                    Чек-бокс 2
+                </label>
+            </div>
+        </div>
+    </fieldset>
+
+    <fieldset class="row mb-3">
+        <div class="col-sm-10 offset-sm-2">
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1">
+                <label class="form-check-label" for="gridRadios1">
+                        Радио-1
+                </label>
+            </div>
+ 
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                <label class="form-check-label" for="gridRadios2">
+                    Радио-2
+                </label>
+            </div>
+
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+                <label class="form-check-label" for="gridRadios3">
+                    Радио-3
+                </label>
+            </div>
+        </div>
+    </fieldset>
+
+    <div class="row mb-3">
+        <label for="inputLogin" class="col-sm-2 col-form-label">Логин:</label>
+        <div class="col-sm-10">
+            <input type="text" name="login" class="form-control" id="inputLogin" placeholder="Введите логин">
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label for="inputPassword" class="col-sm-2 col-form-label">Пароль:</label>
+        <div class="col-sm-10">
+            <input type="password" name="password" class="form-control" id="inputPassword" placeholder="Введите пароль">
+        </div>
+    </div>
+    <button type="submit" class="btn btn-primary mb-3">Отправить</button>
+</form>

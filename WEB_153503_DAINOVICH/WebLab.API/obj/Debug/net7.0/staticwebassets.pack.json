@@ -1,0 +1,57 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\university\\5 semester\\test reserve\\WEB_153503_DAINOVICH\\WebLab.API\\wwwroot\\Images\\blade-runner.png",
+      "PackagePath": "staticwebassets\\Images\\blade-runner.png"
+    },
+    {
+      "Id": "D:\\university\\5 semester\\test reserve\\WEB_153503_DAINOVICH\\WebLab.API\\wwwroot\\Images\\chainsaw-man.png",
+      "PackagePath": "staticwebassets\\Images\\chainsaw-man.png"
+    },
+    {
+      "Id": "D:\\university\\5 semester\\test reserve\\WEB_153503_DAINOVICH\\WebLab.API\\wwwroot\\Images\\default-profile-picture.png",
+      "PackagePath": "staticwebassets\\Images\\default-profile-picture.png"
+    },
+    {
+      "Id": "D:\\university\\5 semester\\test reserve\\WEB_153503_DAINOVICH\\WebLab.API\\wwwroot\\Images\\fight-club.png",
+      "PackagePath": "staticwebassets\\Images\\fight-club.png"
+    },
+    {
+      "Id": "D:\\university\\5 semester\\test reserve\\WEB_153503_DAINOVICH\\WebLab.API\\wwwroot\\Images\\gto.png",
+      "PackagePath": "staticwebassets\\Images\\gto.png"
+    },
+    {
+      "Id": "D:\\university\\5 semester\\test reserve\\WEB_153503_DAINOVICH\\WebLab.API\\wwwroot\\Images\\john-wick.png",
+      "PackagePath": "staticwebassets\\Images\\john-wick.png"
+    },
+    {
+      "Id": "D:\\university\\5 semester\\test reserve\\WEB_153503_DAINOVICH\\WebLab.API\\wwwroot\\Images\\la-haine.png",
+      "PackagePath": "staticwebassets\\Images\\la-haine.png"
+    },
+    {
+      "Id": "D:\\university\\5 semester\\test reserve\\WEB_153503_DAINOVICH\\WebLab.API\\wwwroot\\Images\\leon.png",
+      "PackagePath": "staticwebassets\\Images\\leon.png"
+    },
+    {
+      "Id": "D:\\university\\5 semester\\test reserve\\WEB_153503_DAINOVICH\\WebLab.API\\wwwroot\\Images\\pulp-fict.png",
+      "PackagePath": "staticwebassets\\Images\\pulp-fict.png"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.WebLab.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.WebLab.API.props",
+      "PackagePath": "build\\WebLab.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.WebLab.API.props",
+      "PackagePath": "buildMultiTargeting\\WebLab.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.WebLab.API.props",
+      "PackagePath": "buildTransitive\\WebLab.API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

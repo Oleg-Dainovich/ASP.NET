@@ -1,0 +1,40 @@
+﻿@using Domain.Entities;
+
+<style>
+	.movies-details-container {
+		display: flex;
+		align-items: center;
+	}
+
+	.movies-image {
+		flex: 0 0 auto;
+		margin-right: 20px;
+	}
+
+	.movies-info {
+		flex: 1 1 auto;
+	}
+</style>
+
+
+@if (SelectedMovies is not null)
+{
+	<div class="movies-details-container">
+		<div class="movies-image">
+			@if (!string.IsNullOrEmpty(SelectedMovies.Image))
+			{
+				<img src="@SelectedMovies.Image" alt="Movies Image" width="400" height="300" />
+			}
+		</div>
+		<div class="movies-info">
+			<h2>@SelectedMovies.Title</h2>
+			<p>@SelectedMovies.Description</p>
+			<p>Price: @SelectedMovies.Price</p>
+		</div>
+	</div>
+}
+
+@code {
+	[Parameter]
+	public Movie? SelectedMovies { get; set; }
+}
